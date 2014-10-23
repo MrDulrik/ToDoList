@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app lang="en">
+<html ng-app lang="en"> <!--Angular app start-->
 <head>
     <meta charset="UTF-8">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script> <!--ANGULAR LINK-->
@@ -11,7 +11,16 @@
 <body>
     
 <div class="list" ng-controller="todocntrl">
-    
+        <div class="container">
+           <div class="row">
+                <div class="col-md-12">
+                <h1>You've
+                <span class="emphasis">{{getTotalTodos()}}</span>
+                things to do this day.</h1>
+                </div>  
+           </div>
+        </div>
 </div>
+
 </body>
 </html>
