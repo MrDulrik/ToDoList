@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script> <!--ANGULAR LINK-->
+    <!-- SCRIPTS-->
+    <script src="ToDo.js"></script><!-- Denne skal allerede loades her, da funktionen ToDoCtrl, som er defineret i denne fil, skal bruges længere nede -->
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all"/>
     <link rel="stylesheet" href="css/default.css" type="text/css" media="all"/>  
     
@@ -11,6 +13,7 @@
 
 <body>
 <div class="wrapper" ng-controller="ToDoCtrl">
+<!-- Nu hvor din js-fil er defineret i toppen, er funktionen ToDoCtrl blevet defineret -->
         <div class="container">
            <div class="row">
                 <div class="col-md-12 result">
@@ -28,8 +31,7 @@
                 <div class="col-md-12 ">
                 <!--Form starter-->
                 <form>
-                    <input class="AddContent" placeholder="Type your Todo" type="text" ng-model="FormToDoText" ng-model-instant/>
-                    </button>
+                    <input class="AddContent" placeholder="Type your Todo" type="text" ng-model="formTodoText" ng-model-instant/>
                 </form>
                 </div>
                 
@@ -43,10 +45,6 @@
            </div>
         </div>
 </div>
-
-
-<!-- SCRIPTS-->
-<script src="ToDo.js"></script>
 
 </body>
 </html>
