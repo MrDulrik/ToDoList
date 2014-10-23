@@ -28,14 +28,16 @@
                 <div class="col-md-12 ">
                 <!--Form starter-->
                 <form>
-                    <input class="AddContent" placeholder="Type your ToDo" type="text" ng-model="FormToDoText" ng-model-instant/>
-                    <button class="add-btn" ng-click="addTodo()">
-                    <h2>Add to list</h2>
+                    <input class="AddContent" placeholder="Type your Todo" type="text" ng-model="FormToDoText" ng-model-instant/>
                     </button>
                 </form>
                 </div>
+                
                 <!--Slet knappen-->
                 <div class="col-md-12">
+                <button class="add-btn" ng-click="addTodo()">
+                    <h2>Add to list</h2>
+                    </button>
                 <button class="clear-btn" ng-click="clearCompleted()">Clear completed</button>
                  </div>
            </div>
