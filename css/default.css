@@ -60,6 +60,103 @@ html, body {
   margin: 0;
 }
 
+/*=========CSS START============*/
+    /*---RANDOM----*/
+body{
+background-image: url('../img/school.png');
+}
+
+
+.wrapper{
+    margin-left:  auto;
+    margin-right:  auto;
+}
+
+/*===========FONTS==========*/
+@font-face {
+	font-family:'ConfettiFalling';
+    src: url('ConfettiFalling-webfont.otf');
+    src: url('ConfettiFalling-webfont.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+	font-family:'Bebas Neue';
+    src: url('BebasNeue-webfont.otf');
+    src: url('BebasNeue-webfont.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+
+
+
+/*===========RESULT FIELD==============*/
+h1 {
+    font-family: 'bebas neue';
+    font-size: 30px;
+}
+
+h2{
+    font-family: 'bebas neue';
+    font-size: 20px;
+}
+
+
+/*===========ADD BUTTON=========*/
+.add-btn {
+	background-color:#768d87;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#20590b;
+	font-family:arial;
+	font-size:17px;
+	padding:8px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2b665e;
+}
+.add-btn:hover {
+	background-color:#6c7c7c;
+}
+.add-btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+/*===========TEXTFIELD AND BUTTON=============*/
+.AddContent{
+    font-family: 'ConfettiFalling';
+    border-radius: 5px;
+    width: 150px;
+}
+
+.clear-btn {
+	background-color:#768d87;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#800505;
+	font-family:arial;
+	font-size:19px;
+	padding:8px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2b665e;
+    margin-top: 6px;
+    font-family: 'bebas neue';
+}
+.clear-btn:hover {
+	background-color:#6c7c7c;
+}
+.clear-btn:active {
+	position:relative;
+	top:1px;
+}
 
 
 
