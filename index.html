@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script> <!--ANGULAR LINK-->
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all"/>
-    <link rel="stylesheet" href="css/default.css" type="text/css" media="all"/>
-    <script src="ToDo.js"></script>
+    <link rel="stylesheet" href="css/default.css" type="text/css" media="all"/>  
     
     <title>ToDoList</title>
 </head>
+
 <body>
-    
-<div class="list" ng-controller="ToDoCtrl">
+<div class="wrapper" ng-controller="ToDoCtrl">
         <div class="container">
            <div class="row">
                 <div class="col-md-12 result">
@@ -25,7 +24,7 @@
                     </li>
                 </ul>
                 </div> 
-                <div class="col-md-12">
+                <div class="col-md-12 ">
                 <!--Form starter-->
                 <form>
                     <input class="AddContent" placeholder="Type your ToDo" type="text" ng-model="FormToDoText" ng-model-instant/>
@@ -41,6 +40,10 @@
            </div>
         </div>
 </div>
+
+
+<!-- SCRIPTS-->
+<script src="ToDo.js"></script>
 
 </body>
 </html>
