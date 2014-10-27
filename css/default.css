@@ -63,14 +63,20 @@ html, body {
 /*=========CSS START============*/
     /*---RANDOM----*/
 body{
-background-image: url('../img/school.png');
+background-image: url('../img/footer_lodyas.png');
 }
 
 
 .wrapper{
     margin-left:  auto;
     margin-right:  auto;
+    border: 3px #fff solid;
+    width: 300px;
+    margin-top: 100px;
+    padding: 15px;
+    border-radius: 2px;
 }
+
 
 /*===========FONTS==========*/
 @font-face {
@@ -92,11 +98,14 @@ background-image: url('../img/school.png');
 h1 {
     font-family: 'bebas neue';
     font-size: 30px;
+    color: #fff;
 }
 
 h2{
     font-family: 'bebas neue';
     font-size: 20px;
+    color: #fff;
+    padding-bottom: 10px;
 }
 
 
@@ -110,11 +119,12 @@ h2{
 	display:inline-block;
 	cursor:pointer;
 	color:#20590b;
-	font-family:arial;
-	font-size:17px;
+	font-family:'bebas neue';
+	font-size:18px;
 	padding:8px 18px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #2b665e;
+    height: 40px;
 }
 .add-btn:hover {
 	background-color:#6c7c7c;
@@ -131,6 +141,9 @@ h2{
     font-family: 'ConfettiFalling';
     border-radius: 5px;
     width: 150px;
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .clear-btn {
@@ -156,6 +169,12 @@ h2{
 .clear-btn:active {
 	position:relative;
 	top:1px;
+}
+
+.donefont{
+    font-family: 'ConfettiFalling';
+    color: #fff;
+    font-size: 25px;
 }
 
 
