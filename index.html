@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script> <!--ANGULAR LINK-->
     <!-- SCRIPTS-->
-    <script src="ToDo.js"></script><!-- Denne skal allerede loades her, da funktionen ToDoCtrl, som er defineret i denne fil, skal bruges længere nede -->
+    <script src="ToDo.js"></script>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all"/>
     <link rel="stylesheet" href="css/default.css" type="text/css" media="all"/>  
     
@@ -13,7 +13,6 @@
 
 <body>
 <div class="wrapper" ng-controller="ToDoCtrl">
-<!-- Nu hvor din js-fil er defineret i toppen, er funktionen ToDoCtrl blevet defineret -->
         <div class="container">
            <div class="row">
                 <div class="col-md-12 result">
@@ -24,7 +23,7 @@
                 <ul>
                     <li ng-repeat="todo in todos">
                        <input type="checkbox" ng-model="todo.done">
-                        <span class="done-{{todo.done}}">{{todo.text}}</span>
+                        <span class="done-{{todo.done}} donefont">{{todo.text}}</span>
                     </li>
                 </ul>
                 </div> 
@@ -38,7 +37,7 @@
                 <!--Slet knappen-->
                 <div class="col-md-12">
                 <button class="add-btn" ng-click="addTodo()">
-                    <h2>Add to list</h2>
+                    Add to list
                     </button>
                 <button class="clear-btn" ng-click="clearCompleted()">Clear completed</button>
                  </div>
