@@ -81,8 +81,8 @@ background-image: url('../img/footer_lodyas.png');
 /*===========FONTS==========*/
 @font-face {
 	font-family:'ConfettiFalling';
-    src: url('ConfettiFalling-webfont.otf');
-    src: url('ConfettiFalling-webfont.ttf')  format('truetype'); /* Safari, Android, iOS */
+    src: url('ConfettiFalling.otf.eot');
+    src: url('ConfettiFalling.ttf.woff')  format('truetype'); /* Safari, Android, iOS */
 }
 
 @font-face {
@@ -180,7 +180,9 @@ h2{
 .author p{
     color: #595959;
     padding-top: 10px;
-    padding-left: 100px;
+    padding-left: 120px;
+    font-family: 'helvetica';
+    font-size: 13px;
 }
 
 
