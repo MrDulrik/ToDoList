@@ -177,5 +177,10 @@ h2{
     font-size: 25px;
 }
 
+.author p{
+    color: #595959;
+    padding-top: 10px;
+    padding-left: 100px;
+}
 
 
